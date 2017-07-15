@@ -35,6 +35,7 @@ class App extends Component {
         </div>
         <div className="sidebar">
             <h2>Movies List</h2>
+            {/* Transmits state movies to the Movies component by the props */}
             <Movies movies={this.state.movies}/>
         </div>
         <div className="main-content">
